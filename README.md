@@ -9,9 +9,10 @@ Requirements :
  
  # Method used :
  Binary threshold Operation -->
-    * Convert an image to gray scale image and we define a threshold value.
-    * Then, for each pixel of the gray scale image, if its value is lesser than the threshold, then we assign to it the value 0 (black).       * Otherwise, we assign to it the value 255 (white).
- 
+    1. Convert an image to gray scale image and we define a threshold value.
+    2. Then, for each pixel of the gray scale image, if its value is lesser than the threshold, then we assign to it the value 0 (black).
+    3. Otherwise, we assign to it the value 255 (white).
+    
  # Process :
     1. Import cv2 module of openCV library
     2. Obtain the color image and change to grayscale image
